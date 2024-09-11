@@ -1,0 +1,33 @@
+---
+title: "Read Me"
+format: html
+editor: visual
+---
+
+# Read Me
+
+This repository hosts the data and code for the paper:
+
+**An abrupt increase in fire frequency in high mountain peatlands of southern Australia**
+
+Nicholas Lloyd, John W. Morgan, William L. Geary, and Jodi N. Price
+
+# **Repository**
+
+The repository contains the data and scripts required to reproduce key figures and results of the regression analyses contained within the paper.
+
+## Step 1_Map fire history over time.R
+
+This script is used to produce the key figure analysing changes in fire frequency over time for all peatlands.
+
+## Step 2_Prep data for modelling.R
+
+This script generates the final dataset used for modelling, including extraction of key covariates from spatial data. The data required to run this script is not contained in the repository due to its large file size, however the resulting datasets are contained within the data_clean folder.
+
+## Step 3_Fire Frequency models and results.R
+
+This script runs the model and generates the plots relating to fire frequency
+
+## Step 4_Fire severity models and results.R
+
+This script runs the model and generates the plots relating to the severity of the 2019/2020 Black Summer fires.
